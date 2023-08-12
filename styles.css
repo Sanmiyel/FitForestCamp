@@ -1,55 +1,66 @@
 
-/* Reset some default browser styles */
-body, h1, h2, h3, p, ul, li {
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
+    text-decoration: none;  /* Remove underlines from links */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4; /* Light gray background to keep things easy on the eyes */
+    background-color: #e9f7ef; /* Soft green background */
     color: #333; /* Dark gray for primary text content */
+    font-size: 18px;  /* Slightly larger text for better readability */
 }
 
 header {
     background-color: #4CAF50; /* Primary green color */
-    color: #fff; /* White text for the header */
+    color: #fff;
     text-align: center;
-    padding: 1em 0; /* Some spacing around content */
+    padding: 1em 0;
+    border-bottom: 5px solid #2e7d32;  /* Darker green border for some depth */
 }
 
 nav ul {
-    list-style-type: none; /* Remove bullet points */
-    background-color: #333; /* Dark background for navigation */
+    list-style-type: none;
+    padding: 10px;
+    background-color: #333;
+    text-align: center; /* Center align the navigation links */
 }
 
 nav ul li {
-    display: inline; /* Display list items in a row */
-    margin-right: 20px; /* Space between menu items */
+    display: inline;
+    margin-right: 20px;
 }
 
 nav ul li a {
-    text-decoration: none; /* Remove underlines */
-    color: #fff; /* White text for navigation links */
-    padding: 5px 10px; /* Some padding around links */
-    border-radius: 5px; /* Rounded corners for aesthetics */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;  /* Smooth transition for hover effect */
 }
 
 nav ul li a:hover {
-    background-color: #4CAF50; /* Green background on hover */
+    background-color: #4CAF50;
 }
 
 section {
-    padding: 20px; /* Spacing inside each section */
-    margin-bottom: 20px; /* Space between sections */
-    background-color: #fff; /* White background for content sections */
-    border-radius: 5px; /* Rounded corners for aesthetics */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;  /* Limit the width for better readability */
+    background-color: #fff; /* White content sections */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Subtle shadow for depth */
 }
 
-h2 {
-    margin-bottom: 20px; /* Space below each heading */
-    color: #4CAF50; /* Green color for subheadings */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #4CAF50;
 }
 
-/* Additional styling can be added based on specific requirements and feedback */
+p {
+    margin-bottom: 20px;
+}
+
+/* Further styling enhancements can be added based on specific requirements and feedback */
