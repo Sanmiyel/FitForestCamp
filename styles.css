@@ -1,0 +1,55 @@
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray background to keep things easy on the eyes */
+    color: #333; /* Dark gray for primary text content */
+}
+
+header {
+    background-color: #4CAF50; /* Primary green color */
+    color: #fff; /* White text for the header */
+    text-align: center;
+    padding: 1em 0; /* Some spacing around content */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    background-color: #333; /* Dark background for navigation */
+}
+
+nav ul li {
+    display: inline; /* Display list items in a row */
+    margin-right: 20px; /* Space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underlines */
+    color: #fff; /* White text for navigation links */
+    padding: 5px 10px; /* Some padding around links */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50; /* Green background on hover */
+}
+
+section {
+    padding: 20px; /* Spacing inside each section */
+    margin-bottom: 20px; /* Space between sections */
+    background-color: #fff; /* White background for content sections */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below each heading */
+    color: #4CAF50; /* Green color for subheadings */
+}
+
+/* Additional styling can be added based on specific requirements and feedback */
